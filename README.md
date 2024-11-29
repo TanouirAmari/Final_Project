@@ -54,12 +54,7 @@ Vous pouvez maintenant copier et coller ce contenu directement dans votre fichie
    ```bash
    pip install -r requirements.txt
 
-2. **Generate a Value for \( \beta \)**:
-  Before running the main script, you need to generate a value for \( \beta \). This can be done by running the `Beta_generation_Tanouir.py` script, which computes a value of \( \beta = \alpha^k \mod p \) for a random exponent \( k \). This value of \( \beta \) will be used as the target number whose discrete logarithm you will compute. To generate a value of \( \beta \), run the following command:
-    ```bash
-    python Beta_generation_Tanouir.py
-
-3. **Run the `main.py` File.** After generating \( \beta \) you need to run the main script `main.py`, which uses the discrete logarithm method based on index calculus to perform the task.
+2. **Run the `main.py` File.** After installing the requirements, you need to run the main script `main.py`, which uses the discrete logarithm method based on index calculus to perform the task.
 
 
 
