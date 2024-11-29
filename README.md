@@ -26,12 +26,9 @@ This repository implements a discrete logarithm calculator using the **Index Cal
 
 ## Files in the Repository
 
-### 1. **`main.py`**:
+###  **`main.py`**:
    - The main script that implements the **Index Calculus Method** for computing the discrete logarithm of \( \beta \). This script includes the generation of the factor base, B-smoothness checking, relations finding, and solving the system of linear equations.
    
-### 2. **`Beta_generation_Tanouir.py`**:
-   - A separate script used to generate values of \( \beta \), which are powers of \( \alpha \) modulo \( p \), for testing and analysis.
-
 ## How to Run the Code
 
 ### Requirements
@@ -62,7 +59,7 @@ Vous pouvez maintenant copier et coller ce contenu directement dans votre fichie
     ```bash
     python Beta_generation_Tanouir.py
 
-3. **Run the `main.py` file.**
+3. **Run the `main.py` File.** After generating \( \beta \) you need to run the main script `main.py`, which uses the discrete logarithm method based on index calculus to perform the task.
 
 
 
