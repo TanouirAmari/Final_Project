@@ -1,4 +1,4 @@
-# Final_Project
+# Final Project
 
 # Discrete Logarithm Calculator Using Index Calculus Method
 
